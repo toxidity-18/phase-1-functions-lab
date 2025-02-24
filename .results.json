@@ -2,26 +2,20 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 8,
+    "passes": 13,
     "pending": 0,
-    "failures": 5,
-    "start": "2024-07-07T05:55:03.568Z",
-    "end": "2024-07-07T05:55:04.087Z",
-    "duration": 519
+    "failures": 0,
+    "start": "2025-02-24T01:40:29.801Z",
+    "end": "2025-02-24T01:40:30.106Z",
+    "duration": 305
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected -1 to equal 1",
-        "showDiff": true,
-        "actual": "-1",
-        "expected": "1",
-        "stack": "AssertionError: expected -1 to equal 1\n    at Context.<anonymous> (test/indexTest.js:6:45)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in blocks",
@@ -42,13 +36,7 @@
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected -264 to equal 264",
-        "showDiff": true,
-        "actual": "-264",
-        "expected": "264",
-        "stack": "AssertionError: expected -264 to equal 264\n    at Context.<anonymous> (test/indexTest.js:20:43)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in feet",
@@ -69,18 +57,12 @@
       "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 1848 to equal 1320",
-        "showDiff": true,
-        "actual": "1848",
-        "expected": "1320",
-        "stack": "AssertionError: expected 1848 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:34:50)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -96,13 +78,7 @@
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 7.84 to equal 0",
-        "showDiff": true,
-        "actual": "7.84",
-        "expected": "0",
-        "stack": "AssertionError: expected 7.84 to equal 0\n    at Context.<anonymous> (test/indexTest.js:48:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
@@ -123,83 +99,11 @@
       "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 'cannot travel that far'",
-        "showDiff": true,
-        "actual": 25,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:61:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected -1 to equal 1",
-        "showDiff": true,
-        "actual": "-1",
-        "expected": "1",
-        "stack": "AssertionError: expected -1 to equal 1\n    at Context.<anonymous> (test/indexTest.js:6:45)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected -264 to equal 264",
-        "showDiff": true,
-        "actual": "-264",
-        "expected": "264",
-        "stack": "AssertionError: expected -264 to equal 264\n    at Context.<anonymous> (test/indexTest.js:20:43)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "returns the distance travelled in feet",
-      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 1848 to equal 1320",
-        "showDiff": true,
-        "actual": "1848",
-        "expected": "1320",
-        "stack": "AssertionError: expected 1848 to equal 1320\n    at Context.<anonymous> (test/indexTest.js:34:50)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "gives customers a free sample",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 7.84 to equal 0",
-        "showDiff": true,
-        "actual": "7.84",
-        "expected": "0",
-        "stack": "AssertionError: expected 7.84 to equal 0\n    at Context.<anonymous> (test/indexTest.js:48:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    },
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 25 to equal 'cannot travel that far'",
-        "showDiff": true,
-        "actual": 25,
-        "expected": "cannot travel that far",
-        "stack": "AssertionError: expected 25 to equal 'cannot travel that far'\n    at Context.<anonymous> (test/indexTest.js:61:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
@@ -209,8 +113,22 @@
       "err": {}
     },
     {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInBlocks() calculates distances below 42nd street",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -230,15 +148,29 @@
       "err": {}
     },
     {
+      "title": "returns the distance travelled in feet",
+      "fullTitle": "index.js distanceTravelledInFeet() returns the distance travelled in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceTravelledInFeet() returns a distance in feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns distance when destination is below distance",
       "fullTitle": "index.js distanceTravelledInFeet() returns distance when destination is below distance",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "gives customers a free sample",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -253,6 +185,13 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

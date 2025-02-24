@@ -14,6 +14,7 @@ describe('index.js', function() {
       expect(distanceFromHqInBlocks(34)).to.equal(8);
     });
   });
+  // passed the first test .
 
   describe('distanceFromHqInFeet()', function() {
     it('returns a distance in feet', function() {
@@ -28,6 +29,7 @@ describe('index.js', function() {
       expect(distanceFromHqInFeet(34)).to.equal(2112);
     });
   });
+  // passed the second test .
 
   describe('distanceTravelledInFeet()', function() {
     it('returns the distance travelled in feet', function() {
